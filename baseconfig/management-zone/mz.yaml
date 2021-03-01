@@ -1,0 +1,5 @@
+config:
+  - customer_mz: "managementZone.json"
+
+customer_mz:
+  - name: "colin"

@@ -1,0 +1,20 @@
+{
+  "type": "SERVICE",
+  "nameFormat": "colin-{Service:DetectedName}",
+  "displayName": "conditional-naming-service",
+  "enabled": true,
+  "rules": [
+    {
+      "key": {
+        "attribute": "HOST_IP_ADDRESS"
+      },
+      "comparisonInfo": {
+        "type": "IP_ADDRESS",
+        "operator": "EXISTS",
+        "value": null,
+        "negate": false,
+        "caseSensitive": null
+      }
+    }
+  ]
+}

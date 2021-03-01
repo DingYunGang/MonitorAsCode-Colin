@@ -1,0 +1,20 @@
+{
+  "type": "PROCESS_GROUP",
+  "nameFormat": "{ProcessGroup:DetectedName} - {ProcessGroup:Ports}",
+  "displayName": "{{ .name }}",
+  "enabled": true,
+  "rules": [
+    {
+      "key": {
+        "attribute": "HOST_IP_ADDRESS"
+      },
+      "comparisonInfo": {
+        "type": "IP_ADDRESS",
+        "operator": "EXISTS",
+        "value": null,
+        "negate": false,
+        "caseSensitive": null
+      }
+    }
+  ]
+}

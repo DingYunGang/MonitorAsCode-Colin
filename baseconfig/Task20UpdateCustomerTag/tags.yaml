@@ -1,0 +1,5 @@
+config:
+  - customer_tag: "customertag.json"
+
+customer_tag:
+  - name: "test"

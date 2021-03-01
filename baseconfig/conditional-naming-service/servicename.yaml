@@ -1,0 +1,5 @@
+config:
+  - prepend_customer_name: "conditional-naming-service.json"
+  
+prepend_customer_name:
+  - name: "conditional-naming-service"

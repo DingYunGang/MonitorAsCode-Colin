@@ -1,0 +1,7 @@
+config:
+  - customer-a-staging: "rule.json"
+
+customer-a-staging:
+  - name: "customer-a-staging.name"
+  - application_id: "customer-a-staging.id"
+  - pattern: "http://staging.customera"
